@@ -237,7 +237,9 @@ body {
   background: var(--surface);
   color: var(--primary);
   border: 1.5px solid var(--primary);
+  cursor: pointer;
 }
+.footer-btn.forum:hover { background: var(--primary); color: white; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(43,94,167,0.2); }
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes fadeInDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
@@ -379,10 +381,10 @@ body {
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
       비전AI교육연구소
     </a>
-    <span class="footer-btn forum" style="cursor:default;">
+    <a class="footer-btn forum" href="https://litt.ly/jin1004" target="_blank" rel="noopener" onclick="window.open('https://litt.ly/jin1004','_blank');return false;">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
       Trinity AI Forum
-    </span>
+    </a>
   </div>
 
   <span style="margin-top:12px;display:inline-block;">Made with ❤️ for Korean Churches · 2026</span>
